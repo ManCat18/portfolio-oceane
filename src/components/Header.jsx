@@ -14,15 +14,15 @@ const Header = ({ age }) => {
         <p className="text-1g text-teal-800 mb-8">Étudiante BUT Génie Biologique • En recherche d'alternance</p>
 
         <div className="flex md:flex-row justify-center items-center gap-4 md:gap-8 mb-8">
-          <div className="bg-white/80 rounded-lg p-6 shadow-lg w-full md:w-auto text-center">
+          <div className="bg-white/80 rounded-lg md:p-6 sm:p-auto shadow-lg w-full md:w-auto text-center">
             <div className="text-3xl font-bold text-teal-800">2</div>
             <div className="text-sm text-teal-600">ans d'études</div>
           </div>
-          <div className="bg-white/80 rounded-lg p-6 shadow-lg w-full md:w-auto text-center">
+          <div className="bg-white/80 rounded-lg md:p-6 sm:p-auto shadow-lg w-full md:w-auto text-center">
             <div className="text-3xl font-bold text-teal-800">{age}</div>
             <div className="text-sm text-teal-600">ans</div>
           </div>
-          <div className="bg-white/80 rounded-lg p-6 shadow-lg w-full md:w-auto text-center">
+          <div className="bg-white/80 rounded-lg md:p-6 sm:p-auto shadow-lg w-full md:w-auto text-center">
             <div className="text-3xl font-bold text-teal-800">5+</div>
             <div className="text-sm text-teal-600">manipulations</div>
           </div>
