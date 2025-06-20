@@ -57,7 +57,7 @@ const Experiences = () => {
                     <ul className="grid md:grid-cols-2 gap-2">
                         {exp.tasks.map((task, taskIndex) => (
                             <li key={taskIndex} className="flex items-center gap-3 text-gray-700">
-                                <span className="w-2 h-2 bg-teal-600 rounded-full"></span>
+                                <span className="w-2 h-2 bg-teal-600 rounded-full shrink-0"></span>
                                 {task}
                             </li>
                         ))}
