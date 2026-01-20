@@ -8,9 +8,8 @@ const About = () => {
             <h2 className="text-3xl font-bold text-teal-900 mb-6">À Propos</h2>
             <div className="text-lg text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                    Actuellement en 2ème année de BUT Génie Biologique, parcours Biologie Médicale et Biotechnologie, je suis à la recherche d’une
-                    <strong> alternance </strong> pour ma dernière année dans le domaine de la recherche en laboratoire.
-                    Très dynamique et investie, j’ai eu l'occasion de réaliser un stage dans un laboratoire de recherche Suisse.
+                    Actuellement en 2ème année de BUT Génie Biologique, parcours Biologie Médicale et Biotechnologie, je suis actuellement en alternance au sein du laboratoire B2A de PFASTATT.
+                    Très dynamique et investie, j’ai également eu l'occasion de réaliser un stage dans un laboratoire de recherche Suisse.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mt-8">
                     <div>

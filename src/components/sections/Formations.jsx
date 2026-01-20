@@ -3,6 +3,21 @@ import React from 'react';
 
 const formations = [
     {
+        period: "2025 - 2026",
+        title: "BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie | En alternance",
+        school: "IUT | THIONVILLE-YUTZ",
+        subjects: [
+            "Microbiologie",
+            "Cinétique chimique et enzymatique",
+            "Pharmacologie",
+            "Anatomie et cytomogie pahtologique",
+            "Immunologie",
+            "Génie génétique",
+            "Biochimie métabolique et médicale"
+        ],
+        skills : ["Techniques de laboratoire"]
+    },
+    {
         period: "2024 - 2025",
         title: "BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie",
         school: "IUT | THIONVILLE-YUTZ",
