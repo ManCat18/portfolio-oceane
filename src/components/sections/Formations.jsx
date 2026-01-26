@@ -4,22 +4,26 @@ import React from 'react';
 const formations = [
     {
         period: "2025 - 2026",
-        title: "BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie | En alternance",
+        title: "3ème année BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie | En alternance",
         school: "IUT | THIONVILLE-YUTZ",
         subjects: [
-            "Microbiologie",
-            "Cinétique chimique et enzymatique",
-            "Pharmacologie",
-            "Anatomie et cytomogie pahtologique",
-            "Immunologie",
-            "Génie génétique",
-            "Biochimie métabolique et médicale"
+            "Toxicologie",
+            "Virologie et parasitologie",
+            "Technique omique",
+            "Méthodes alternatives à l'expériementation animale",
+            "Immunopathologie",
+            "Immunohématologie et transfusion",
+            "Procédés de la bioproduction"
         ],
-        skills : ["Techniques de laboratoire"]
+        certifications: [
+            "Certificat de capacité de préleveur - théorie (novembre 2025)",
+            "AFGSU2 - Attestation de Formation aux Gestes et Soins d'Urgence de niveau 2 (janvier 2026)"
+        ],
+        skills : ["Techniques de laboratoire", "Gestion de projet", "Travail en équipe", "Rigueur expérimentale"]
     },
     {
         period: "2024 - 2025",
-        title: "BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie",
+        title: " 2émé année BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie",
         school: "IUT | THIONVILLE-YUTZ",
         subjects: [
             "Microbiologie",
@@ -30,11 +34,11 @@ const formations = [
             "Génie génétique",
             "Biochimie métabolique et médicale"
         ],
-        skills : ["Techniques de laboratoire"]
+        skills : ["Techniques de laboratoire", "Analyse de données", "Travail en équipe", "Rigueur expérimentale"]
     },
     {
         period: "2023 - 2024",
-        title: "BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie",
+        title: "1ère année BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie",
         school: "IUT | THIONVILLE-YUTZ",
         subjects: [
             "Chimie générale et organique",
@@ -43,7 +47,7 @@ const formations = [
             "Biologie cellulaire",
             "Physiologie et expérimentation animale"
         ],
-        skills : ["Initiation aux techniques de laboratoire"]
+        skills : ["Initiation aux techniques de laboratoire", "Méthodologie scientifique"]
     },
     {
         period: "2020 - 2023",
@@ -81,6 +85,13 @@ const Formations = () => {
                             </li>
                         ))}
                     </ul>
+                    <div className="font-semibold text-blue-800 mb-4">
+                        {form.certifications.map((certif, certifIndex) => (
+                            <li key={certifIndex} className="text-gray-700">
+                                {certif}
+                            </li>
+                        ))}
+                    </div>
                     <div className="flex flex-wrap gap-2">
                         {form.skills.map((skill, skillIndex) => (
                             <span
