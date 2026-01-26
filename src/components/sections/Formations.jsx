@@ -88,13 +88,20 @@ const Formations = () => {
                             </li>
                         ))}
                     </ul>
-                    <div className="font-semibold text-blue-800 mb-4">
-                        {form.certifications.map((certif, certifIndex) => (
-                            <li key={certifIndex} className="text-gray-700">
-                                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-                                {certif}
-                            </li>
-                        ))}
+                    <div className="bg-blue-600 rounded-2xl p-6 shadow-xl">
+                        <h4 className="text-2xl font-bold text-white text-center mb-6">
+                            Certifications Obtenues
+                        </h4>
+                        <div className="bg-white rounded-xl p-5">
+                            <ul className="space-y-3">
+                                {form.certifications.map((certif, certifIndex) => (
+                                    <li key={certifIndex} className="flex items-center justify-center gap-3 text-center">
+                                        <span className="text-blue-600 text-xl">✓</span>
+                                        <span className="text-gray-800 font-medium">{certif}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
                     <div className="flex flex-wrap gap-2">
                         {form.skills.map((skill, skillIndex) => (
