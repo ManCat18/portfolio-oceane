@@ -10,8 +10,8 @@ const Header = ({ age }) => {
         {/* <--!<div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-amber-600 to-orange-700 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-xl">
           MC
         </div>--> */}
-        <h1 className="text-2x1 font-bold text-blue-900 mb-4">Océane Cattaneo</h1>
-        <p className="text-1g text-blue-800 mb-8">Étudiante BUT Génie Biologique • Alternante en laboratoire de biologie médicale B2A</p>
+        <h1 className="text-2xl font-bold text-blue-900 mb-4">Océane Cattaneo</h1>
+        <p className="text-lg text-blue-800 mb-8">Étudiante BUT Génie Biologique • Alternante en laboratoire de biologie médicale B2A</p>
 
         <div className="flex md:flex-row justify-center items-center gap-4 md:gap-8 mb-8">
           <div className="bg-white/80 rounded-lg md:p-6 sm:p-auto shadow-lg w-full md:w-auto text-center">
