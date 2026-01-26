@@ -27,7 +27,7 @@ const Navigation = ({ activeSection, setActiveSection }) => {
                                 onClick={() => setActiveSection(item.id)}
                                 className={`px-4 py-2 rounded-lg transition-all ${activeSection === item.id
                                         ? 'bg-blue-600 text-white shadow-lg'
-                                        : 'text-emerald-800 hover:bg-emerald-100'
+                                        : 'text-cyan-800 hover:bg-cyan-100'
                                     }`}
                             >
                                 {item.label}
@@ -46,7 +46,7 @@ const Navigation = ({ activeSection, setActiveSection }) => {
                             onClick={() => setActiveSection(item.id)}
                             className={`flex flex-col items-center text-xs px-2 py-1 rounded transition-all ${activeSection === item.id
                                     ? 'text-blue-600 font-semibold'
-                                    : 'text-gray-600 hover:text-emerald-700'
+                                    : 'text-gray-600 hover:text-cyan-700'
                                 }`}
                         >
                             {item.icon}

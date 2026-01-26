@@ -85,7 +85,7 @@ const Formations = () => {
                         {form.skills.map((skill, skillIndex) => (
                             <span
                                 key={skillIndex}
-                                className="bg-blue-100 text-emerald-800 px-3 py-1 rounded-full text-sm border border-emerald-200"
+                                className="bg-blue-100 text-cyan-800 px-3 py-1 rounded-full text-sm border border-cyan-200"
                             >
                                 {skill}
                             </span>

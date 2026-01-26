@@ -4,8 +4,8 @@ import { Mail, Phone, MapPin, Car } from 'lucide-react';
 
 const Header = ({ age }) => {
   return (
-    <header className="relative overflow-hidden bg-gradient-to-r from-blue-100 to-emerald-300 py-4">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-200/30 to-emerald-300/30 animate-pulse"></div>
+    <header className="relative overflow-hidden bg-gradient-to-r from-blue-100 to-cyan-300 py-4">
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-200/30 to-cyan-300/30 animate-pulse"></div>
       <div className="relative max-w-6xl mx-auto px-6 text-center">
         {/* <--!<div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-amber-600 to-orange-700 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-xl">
           MC
