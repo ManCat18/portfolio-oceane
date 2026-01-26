@@ -7,13 +7,14 @@ const formations = [
         title: "3ème année BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie | En alternance",
         school: "IUT | THIONVILLE-YUTZ",
         subjects: [
+            "Pharmacologie",
             "Toxicologie",
             "Virologie et parasitologie",
-            "Technique omique",
-            "Méthodes alternatives à l'expériementation animale",
-            "Immunopathologie",
-            "Immunohématologie et transfusion",
-            "Procédés de la bioproduction"
+            "Techniques omiques",
+            "Méthodes alternatives à l'expérimentation animale",
+            "Immunopathologie, immunohématologie et transfusion",
+            "Procédés de bioproduction", 
+            "Qualité"
         ],
         certifications: [
             "Certificat de capacité de préleveur - théorie (novembre 2025)",
@@ -23,7 +24,7 @@ const formations = [
     },
     {
         period: "2024 - 2025",
-        title: " 2émé année BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie",
+        title: " 2éme année BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie",
         school: "IUT | THIONVILLE-YUTZ",
         subjects: [
             "Microbiologie",
@@ -88,20 +89,18 @@ const Formations = () => {
                             </li>
                         ))}
                     </ul>
-                    <div className="bg-blue-600 rounded-2xl p-6 shadow-xl">
-                        <h4 className="text-2xl font-bold text-white text-center mb-6">
-                            Certifications Obtenues
+                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border-2 border-blue-200 shadow-sm">
+                        <h4 className="text-xl font-bold text-blue-900 text-center mb-4">
+                            Certifications
                         </h4>
-                        <div className="bg-white rounded-xl p-5">
-                            <ul className="space-y-3">
-                                {form.certifications.map((certif, certifIndex) => (
-                                    <li key={certifIndex} className="flex items-center justify-center gap-3 text-center">
-                                        <span className="text-blue-600 text-xl">✓</span>
-                                        <span className="text-gray-800 font-medium">{certif}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
+                        <ul className="space-y-3">
+                            {form.certifications.map((certif, certifIndex) => (
+                                <li key={certifIndex} className="flex items-center justify-center gap-3">
+                                    <span className="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></span>
+                                    <span className="text-gray-700 font-medium">{certif}</span>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                     <div className="flex flex-wrap gap-2">
                         {form.skills.map((skill, skillIndex) => (
