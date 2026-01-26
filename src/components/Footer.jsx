@@ -16,7 +16,7 @@ const Footer = () => {
                         <span>+33 6 10 38 12 80</span>
                     </div>
                 </div>
-                <p className="mb-4">© Manon Cattaneo - 2026</p>
+                <p className="text-xs mb-4">© Manon Cattaneo - 2026</p>
             </div>
         </footer>
     );
