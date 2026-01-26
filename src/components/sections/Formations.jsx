@@ -24,7 +24,7 @@ const formations = [
     },
     {
         period: "2024 - 2025",
-        title: " 2éme année BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie",
+        title: " 2ème année BUT Génie Biologique | Parcours Biologie Médicale et Biotechnologie",
         school: "IUT | THIONVILLE-YUTZ",
         subjects: [
             "Microbiologie",
