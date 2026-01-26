@@ -81,15 +81,15 @@ const manipulations = [
 const Manipulations = () => {
     return (
         <section className="space-y-6 p-8 mb-8">
-            <h2 className="text-3xl font-bold text-teal-900 mb-8">Manipulations</h2>
+            <h2 className="text-3xl font-bold text-blue-900 mb-8">Manipulations</h2>
             {manipulations.map((manipulation, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-xl p-8">
-                    <h3 className="text-2xl font-bold text-teal-900 mb-6">{manipulation.title}</h3>
+                    <h3 className="text-2xl font-bold text-blue-900 mb-6">{manipulation.title}</h3>
                     
                     <div className="space-y-6 mb-6">
                         {manipulation.sousManipulations.map((sousManip, sousIndex) => (
-                            <div key={sousIndex} className="border-l-4 border-teal-500 pl-6">
-                                <h4 className="text-lg font-semibold text-teal-800 mb-2">
+                            <div key={sousIndex} className="border-l-4 border-blue-500 pl-6">
+                                <h4 className="text-lg font-semibold text-blue-800 mb-2">
                                     {sousManip.titre}
                                 </h4>
                                 <p className="text-gray-700 leading-relaxed">
@@ -103,7 +103,7 @@ const Manipulations = () => {
                         {manipulation.technologies.map((tech, techIndex) => (
                             <span
                                 key={techIndex}
-                                className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium"
+                                className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
                             >
                                 {tech}
                             </span>

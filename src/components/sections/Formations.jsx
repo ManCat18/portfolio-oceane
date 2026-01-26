@@ -61,22 +61,22 @@ const formations = [
 const Formations = () => {
     return (
         <section className="space-y-6 p-8 mb-8">
-            <h2 className="text-3xl font-bold text-teal-900 mb-8">Formations</h2>
+            <h2 className="text-3xl font-bold text-blue-900 mb-8">Formations</h2>
             {formations.map((form, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-xl p-8">
                     <div className="flex flex-col md:flex-row md:items-center gap-4 mb-4">
-                        <span className="bg-teal-100 text-teal-800 px-4 py-2 rounded-lg text-sm font-medium">
+                        <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-sm font-medium">
                             {form.period}
                         </span>
                         <div>
-                            <h3 className="text-xl font-bold text-teal-900">{form.title}</h3>
-                            <p className="text-teal-700">{form.school}</p>
+                            <h3 className="text-xl font-bold text-blue-900">{form.title}</h3>
+                            <p className="text-blue-700">{form.school}</p>
                         </div>
                     </div>
                     <ul className="grid md:grid-cols-2 gap-2 pb-4">
                         {form.subjects.map((subjects, formIndex) => (
                             <li key={formIndex} className="flex items-center gap-3 text-gray-700">
-                                <span className="w-2 h-2 bg-teal-600 rounded-full"></span>
+                                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
                                 {subjects}
                             </li>
                         ))}
@@ -85,7 +85,7 @@ const Formations = () => {
                         {form.skills.map((skill, skillIndex) => (
                             <span
                                 key={skillIndex}
-                                className="bg-teal-100 text-emerald-800 px-3 py-1 rounded-full text-sm border border-emerald-200"
+                                className="bg-blue-100 text-emerald-800 px-3 py-1 rounded-full text-sm border border-emerald-200"
                             >
                                 {skill}
                             </span>
