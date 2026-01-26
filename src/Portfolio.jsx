@@ -6,7 +6,7 @@ import About from './components/sections/About';
 import Experiences from './components/sections/Experiences';
 import Formations from './components/sections/Formations';
 import Competences from './components/sections/Competences';
-import Projets from './components/sections/Projets';
+import Manipulations from './components/sections/Manipulations';
 import Footer from './components/Footer';
 
 const Portfolio = () => {
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 {activeSection === 'formation' && <Formations />}
                 {activeSection === 'experience' && <Experiences />}
                 {activeSection === 'competences' && <Competences />}
-                {activeSection === 'manipulations' && <Projets />}
+                {activeSection === 'manipulations' && <Manipulations />}
             </main>
             <Footer />
         </div>
