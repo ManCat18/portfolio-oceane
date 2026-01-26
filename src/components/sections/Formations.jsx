@@ -34,6 +34,7 @@ const formations = [
             "Génie génétique",
             "Biochimie métabolique et médicale"
         ],
+        certifications: [],
         skills : ["Techniques de laboratoire", "Analyse de données", "Travail en équipe", "Rigueur expérimentale"]
     },
     {
@@ -47,6 +48,7 @@ const formations = [
             "Biologie cellulaire",
             "Physiologie et expérimentation animale"
         ],
+        certifications: [],
         skills : ["Initiation aux techniques de laboratoire", "Méthodologie scientifique"]
     },
     {
@@ -58,6 +60,7 @@ const formations = [
             "Mathématiques",
             "SVT (Sciences de la Vie et de la Terre)"
         ],
+        certifications: [],
         skills : []
     }
 ];
@@ -88,6 +91,7 @@ const Formations = () => {
                     <div className="font-semibold text-blue-800 mb-4">
                         {form.certifications.map((certif, certifIndex) => (
                             <li key={certifIndex} className="text-gray-700">
+                                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
                                 {certif}
                             </li>
                         ))}
