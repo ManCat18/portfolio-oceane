@@ -3,17 +3,19 @@ import React from 'react';
 
 const manipulations = [
     {
-        title: "Manip 1",
-        description: "xx",
+        title: "Microbiologie",
+        description: ["Ensemencemant <br/> J’ai appris à préparer et ensemencer des géloses pour cultiver des bactéries. Cela comprend la stérilisation du matériel, le choix du type de gélose adapté et la technique d’ensemencement pour obtenir des colonies isolées. J’ai ensuite observé la croissance et noté les caractéristiques morphologiques des colonies.",
+        "Galerie API <br/> Pour identifier les micro-organismes, j’ai utilisé les galeries API qui permettent de tester différents enzymes et substrats. Après incubation, j’ai analysé les changements de couleur et comparé les résultats à la base de données pour identifier la souche.",
+        "Analyse de bactérie et levures <br/> J’ai manipulé différents types de bactéries et levures, appris à les distinguer, à observer leur morphologie, et à interpréter leurs comportements sur différents milieux de culture."].join("<br/>"),
         technologies: ["coupe", "coupe"]
     },
     {
-        title: "Manip 2",
-        description: "xx",
+        title: "Moléculaires",
+        description: "",
         technologies: ["coupe", "coupe"]
     },
     {
-        title: "Manip 3",
+        title: "Immunologie",
         description: "xx",
         technologies: ["coupe","coupe"]
     }
