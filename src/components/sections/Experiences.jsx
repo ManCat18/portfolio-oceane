@@ -5,7 +5,7 @@ const experiences = [
     {
         period: "SEPTEMBRE 2025 - AUJOURD'HUI",
         title: "Alternance de 3ème année de BUT",
-        company: "Laboratoire de biologie médicale B2A | PFASTATT",
+        company: "Laboratoire de biologie médicale B2A | WITTENHEIM",
         subject : "Comparaison et validation de méthodes par PCR pour un changement de kit HPV",
         tasks: [
             "Réception et gestion d'échantillons",
