@@ -90,13 +90,10 @@ const Formations = () => {
                         ))}
                     </ul>
                     <div className="border-l-4 border-blue-500 bg-gray-50 rounded-r-lg p-5 pl-6">
-                        <h4 className="text-lg font-semibold text-blue-900 mb-3 text-center">
-                            Certifications
-                        </h4>
                         <ul className="space-y-2">
                             {form.certifications.map((certif, certifIndex) => (
                                 <li key={certifIndex} className="text-gray-700 text-center">
-                                    • {certif}
+                                    {certif}
                                 </li>
                             ))}
                         </ul>

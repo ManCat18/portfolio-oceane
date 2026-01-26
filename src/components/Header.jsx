@@ -39,7 +39,7 @@ const Header = ({ age }) => {
           </div>
           <div className="flex text-1g items-center gap-2">
             <MapPin className="w-5 h-5" />
-            <span>LUEMSCHWILLER 68720</span>
+            <span>LUEMSCHWILLER 68720 | THIONVILLE 57100</span>
           </div>
           <div className="flex text-1g items-center gap-2">
             <Car className="w-5 h-5" />
