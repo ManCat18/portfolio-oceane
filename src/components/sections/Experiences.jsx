@@ -67,10 +67,10 @@ const Experiences = () => {
                             <p className="text-blue-700">{exp.company}</p>
                         </div>
                     </div>
-                    {exp.sujet && (
+                    {exp.subject && (
                         <div className="border-l-4 border-teal-500 bg-gray-50 rounded-r-lg p-4 pl-6 mb-4">
                             <p className="text-gray-800 font-medium">
-                                <span className="text-teal-900 font-semibold">Sujet :</span> {exp.sujet}
+                                <span className="text-teal-900 font-semibold">Sujet :</span> {exp.subject}
                             </p>
                         </div>
                     )}
