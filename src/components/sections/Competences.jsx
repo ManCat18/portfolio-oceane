@@ -1,6 +1,6 @@
 // components/sections/Competences.jsx
 import React from 'react';
-import {Users, Calendar, Microscope, TestTube2, Pill, LucideClockFading, Brain, User} from 'lucide-react';
+import {Users, Calendar, Microscope, TestTube2, Pill, LucideClockFading, Brain, User, Telescope} from 'lucide-react';
 
 const competences = [
     {
@@ -10,7 +10,7 @@ const competences = [
     },
     {
         category: "Technique",
-        skills: ["Microbiologie", "Culture cellulaire", "Immunologie"],
+        skills: ["Microbiologie", "Culture cellulaire", "Immunologie", "Biologie moléculaire"],
         icon: <TestTube2 className="w-5 h-5" />
     },
     {
@@ -25,7 +25,8 @@ const softSkills = [
     { name: "Esprit critique", icon: <Brain className="w-5 h-5" /> },
     { name: "Patience", icon: <LucideClockFading className="w-5 h-5" /> },
     { name: "Organisation", icon: <Calendar className="w-5 h-5" /> },
-    { name: "Autonomie", icon: <User className="w-5 h-5" /> }
+    { name: "Autonomie", icon: <User className="w-5 h-5" /> }, 
+    { name: "Rigueur expérimentale", icon: <Telescope className="w-5 h-5" /> }
 ];
 
 const Competences = () => {

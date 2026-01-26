@@ -23,7 +23,7 @@ const Header = ({ age }) => {
             <div className="text-sm text-teal-600">ans</div>
           </div>
           <div className="bg-white/80 rounded-lg md:p-6 sm:p-auto shadow-lg w-full md:w-auto text-center">
-            <div className="text-3xl font-bold text-teal-800">5+</div>
+            <div className="text-3xl font-bold text-teal-800">10+</div>
             <div className="text-sm text-teal-600">manipulations</div>
           </div>
         </div>

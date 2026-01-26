@@ -8,7 +8,6 @@ const experiences = [
         company: "Friedrich Miescher Institute for Biomedical Research | BÂLE",
         tasks: [
             "Sujet : Développement du placenta humain et microenvironnement utérin",
-            "Tâches : ",
             "Recherches bibliographiques",
             "Gestion des stocks",
             "Techniques d’histologie dont microtomie",
